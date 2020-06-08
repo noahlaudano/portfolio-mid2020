@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer Smash</title>
+    <link rel="shortcut icon" href="img/fly2.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="game.js"></script>
+  </head>
+  <body onresize="ajustSize()">
+    <div class="row panel">
+      <div class="col-7 lives">
+        <img id="l1" src="img/f-heart.png" alt="full heart" />
+        <img id="l2" src="img/f-heart.png" alt="full heart" />
+        <img id="l3" src="img/f-heart.png" alt="full heart" />
+      </div>
+      <div class="timer col-5"><span id="timer"></span></div>
+    </div>
+    <div class="logo">
+      coded by
+      <a href="../site-portfolio/index.html" class="link"
+        >&lt;nathalia is coding /&gt;</a
+      >
+    </div>
+    <script>
+      document.getElementById("timer").innerHTML = time;
+
+      var startMosquito = setInterval(function () {
+        randomPosition();
+      }, modeTime);
+    </script>
+  </body>
+</html>

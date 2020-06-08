@@ -1,0 +1,89 @@
+html {
+  cursor: url(img/weapon.png) 30 30, auto;
+}
+
+body {
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-color: cornflowerblue;
+  background-position: center top;
+}
+
+.panel {
+  position: absolute;
+  width: 300px;
+  padding: 10px 10px 20px 10px;
+  left: 10px;
+  bottom: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.lives {
+  float: left;
+}
+
+.timer {
+  float: right;
+  font: bold 30px sans-serif;
+  text-align: right;
+}
+
+.mosquito1 {
+  width: 40px;
+  height: 40px;
+}
+
+.mosquito2 {
+  width: 60px;
+  height: 60px;
+}
+
+.mosquito3 {
+  width: 80px;
+  height: 80px;
+}
+
+.rotateplus {
+  transform: rotate(20deg);
+}
+
+.rotateminus {
+  transform: rotate(-20deg);
+}
+
+.logo {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  font: 12px monospace;
+  text-align: center;
+  color: black;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+i.far,
+i.fab {
+  color: black;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+i:hover {
+  color: blueviolet;
+  font-size: 30px;
+  transform: rotate(-5deg);
+}
+
+footer {
+  max-width: 1280px;
+  cursor: default;
+}

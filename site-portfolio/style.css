@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(35, 35, 35);
+}
+
+a {
+  color: rgb(35, 35, 35);
+}
+
+.btn:not(:disabled):not(.disabled),
+.btn:hover,
+a:hover,
+.navbar-dark .navbar-toggler:hover {
+  cursor: url(img/clickable-sm.png) 10 10, auto;
+}
+
+.btn:hover {
+  transform: rotate(2deg);
+  background-color: #6610f2;
+  border-color: #fff;
+  font-size: 1.1rem;
+}
+
+i.fas,
+i.fab,
+i.far {
+  color: rgb(35, 35, 35);
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+i.fab:hover,
+i.far:hover,
+i.fas:hover {
+  font-size: 30px;
+  padding-right: 8px;
+  transform: rotate(15deg);
+}
+
+.social {
+  color: #fff;
+}
+.social:hover,
+i.fa-angle-double-left:hover,
+i.fa-hamburger:hover,
+i.fa-chevron-down:hover,
+a:hover {
+  color: #6610f2;
+  text-decoration: none;
+}
+
+h1:hover {
+  transform: rotate(-2deg);
+}
+
+#first-part,
+#cv {
+  margin-top: 110px;
+}
+
+#box1,
+#box2,
+#box3 {
+  margin-top: 25px;
+}
+
+#box1:hover {
+  transform: rotate(-2deg);
+}
+#box2:hover {
+  margin-top: 15px;
+}
+#box3:hover {
+  transform: rotate(2deg);
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0);
+}
+
+i.fa-chevron-down {
+  color: rgb(255, 255, 255);
+}
