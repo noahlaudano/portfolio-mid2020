@@ -66,7 +66,9 @@
             <div class="col">
               <h2 class="text-monospace">hello!</h2>
               <p class="lead text-monospace">
-                I'm Nathalia!
+                I'm Nathalia! I work as a Microsoft 365 Business Technical
+                Support Engineer, in Lisbon, and I am starting to improve myself
+                as a front-end web developer.
               </p>
               <div class="row">
                 <div class="col">
@@ -87,14 +89,111 @@
                     </button>
                   </nav>
                   <div class="collapse" id="nav-target2">
-                    <div class="container bg-dark p-4">
+                    <div class="container bg-dark p-1">
                       <div class="dd-flex flex-column">
-                        <div class="p-2">
+                        <div class="p-1">
                           <div id="printMe" class="text-muted">
-                            texto do curriculo aqui
+                            <div class="container" id="cv">
+                              <div class="row mx-3">
+                                <div class="col-lg-5">
+                                  <h3 class="text-monospace">
+                                    Nathalia Nogueira
+                                  </h3>
+                                  <h5>Current Job</h5>
+                                  <h6>
+                                    Teleperformance Lisbon \\ Dec 2019 - Now
+                                  </h6>
+                                  <p>
+                                    Microsoft 365 Business Concierge Technical
+                                    Support Engineer for Admin Centers, Exchange
+                                    Online, SharePoint Online, OneDrive for
+                                    Business, Microsoft Teams, Skype for
+                                    Business, Security & Compliance, Azure
+                                    Active Directory, Active Directory, Project,
+                                    Yammer, Delve, Planner, Stream and Office
+                                    Apps.
+                                  </p>
+                                  <h5>Skills</h5>
+                                  <p>Brazilian Portuguese \\ English</p>
+                                  <p>Microsoft 365 Management</p>
+                                  <p>Windows \\ MacOS</p>
+                                  <p>HTML5</p>
+                                  <p>CSS3</p>
+                                  <p>JavaScript - ES6</p>
+                                  <p>Bootstrap</p>
+                                  <p>Git \\ GitHub</p>
+                                  <p>Web Hosting</p>
+                                  <p>Troubleshooting</p>
+                                  <p>Layout design</p>
+                                  <p>Photo and video editing</p>
+                                  <p>Digital Marketing</p>
+                                  <p>Storytelling</p>
+                                  <p>Creative</p>
+                                  <p>Problem solver</p>
+                                  <p>Organized</p>
+                                  <p>Team player</p>
+                                  <p>Fast learner</p>
+                                  <p>Motivated</p>
+                                </div>
+                                <div class="col-lg-6">
+                                  <h5 class="work">Work Experience</h5>
+                                  <h6>Graphic Design \\ 2010 - 2019</h6>
+                                  <p>
+                                    I worked in projects from different areas. I
+                                    have experience creating logos, visual
+                                    identity, layout and design for websites and
+                                    social media.
+                                  </p>
+                                  <h6>Digital Marketing \\ 2018 - 2019</h6>
+                                  <p>
+                                    I worked in a few content marketing
+                                    projects, where my main function was the
+                                    maintenance of landing pages and sales
+                                    sites, integration with social media ads and
+                                    mail marketing platforms, as well as
+                                    strategic project management.
+                                  </p>
+                                  <h6>E-commerce \\ 2017 - 2019</h6>
+                                  <p>
+                                    I co-founded and managed Green and Colour, a
+                                    vegan make-up online store. I managed and
+                                    took care of website maintenance, payments
+                                    and orders.
+                                  </p>
+                                  <h6>LANCE!Net \\ 2013 - 2015</h6>
+                                  <p>
+                                    I worked at LANCE!, where I was responsible
+                                    for editing and organizing the images on the
+                                    website, creating galleries and monitoring
+                                    sporting events through images, in addition,
+                                    I managed the schedule of the freelancers in
+                                    my sector.
+                                  </p>
+                                  <h5>Education</h5>
+                                  <h6>
+                                    Pontifical Catholic University of Rio de
+                                    Janeiro \\ 2010 - 2014
+                                  </h6>
+                                  <p>Social Communication Bacharel's Degree</p>
+                                  <h6>SheCodes \\ 2020</h6>
+                                  <p>
+                                    Introduction to Coding - 16 hours course
+                                  </p>
+                                  <h6>SOS Computers \\ 2012</h6>
+                                  <p>Web Design - 90 hours course</p>
+                                  <h6>SOS Computers \\ 2010</h6>
+                                  <p>Graphic Design - 80 hours course</p>
+                                  <h5>Contact me!</h5>
+                                  <p>
+                                    P: +351 938015560
+                                  </p>
+                                  <p>E: nathaliaiscoding@gmail.com</p>
+                                </div>
+                              </div>
+                            </div>
                           </div>
 
-                          <div class="d-flex justify-content-center mt-5">
+                          <div class="d-flex justify-content-center my-5">
                             <a
                               class="btn btn-light"
                               id="print-btn"
@@ -153,7 +252,7 @@
       <nav class="navbar bg-white navbar-expand-md">
         <div class="container">
           <div class="mt-3">
-            <p>
+            <p class="copy">
               coded by &lt;nathalia is coding /&gt;
             </p>
           </div>
@@ -186,7 +285,7 @@
         var originalContents = document.body.innerHTML;
 
         document.body.innerHTML = printContents;
-
+        document.getElementById("cv").style.color = "black";
         window.print();
 
         document.body.innerHTML = originalContents;

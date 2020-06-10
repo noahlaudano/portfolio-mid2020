@@ -16,7 +16,7 @@ a:hover,
 .btn:hover {
   transform: rotate(2deg);
   background-color: #6610f2;
-  border-color: #fff;
+  border-color: transparent;
   font-size: 1.1rem;
 }
 
@@ -79,4 +79,41 @@ h1:hover {
 
 i.fa-chevron-down {
   color: rgb(255, 255, 255);
+}
+
+h3 {
+  color: rgb(230, 230, 230);
+}
+
+h5 {
+  color: rgb(193, 193, 193);
+  margin-top: 30px;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+.work {
+  margin-top: 63px;
+}
+
+h6 {
+  color: rgb(193, 193, 193);
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+p {
+  color: rgb(230, 230, 230);
+  font-size: 0.9em;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+}
+
+p.lead {
+  color: rgb(35, 35, 35);
+  margin-bottom: 30px;
+}
+
+p.copy {
+  color: rgb(35, 35, 35);
 }
