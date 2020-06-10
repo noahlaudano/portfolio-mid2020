@@ -30,7 +30,7 @@ i.far {
 
 i.fab:hover,
 i.far:hover,
-i.fas:hover {
+i.fa-chevron-down:hover {
   font-size: 30px;
   padding-right: 8px;
   transform: rotate(15deg);
